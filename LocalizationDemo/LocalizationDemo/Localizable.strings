@@ -1,0 +1,11 @@
+
+// Generic
+
+"ok" = "OK";
+
+// DemoScreen
+
+"demo_screen_title" = "Localization 🎥";
+"demo_screen_label_name" = "Full name";
+"demo_screen_label_amount" = "Amount";
+"demo_screen_action_compare" = "Compare Now";
