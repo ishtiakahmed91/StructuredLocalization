@@ -5,5 +5,5 @@ The localization key can be easily maintained using the power of enum. This demo
 ### Steps: 
 1. In LocalizedString enum, add Generic action, label, alerts etc. (LocalizedString.swift)
 2. Add screen wise localization in LocalizedString extension. (LocalizedStringExtension.swift)
-3. Add lolization strings in Localizable.strings file. Proper naming convension should be maintained. 
-4. Use loctalization in the controller using this managable syntax - LocalizedString.DemoScreen.title, LocalizedString.DemoScreen.Label.name... (ViewController.swift)
+3. Add the localization strings in Localizable.strings file. Use proper naming conventions and structure the keys according to the screen name. 
+4. Use localization in the controller using the easy and flexible syntax - For example LocalizedString.DemoScreen.title, LocalizedString.DemoScreen.Label.name. (ViewController.swift)
