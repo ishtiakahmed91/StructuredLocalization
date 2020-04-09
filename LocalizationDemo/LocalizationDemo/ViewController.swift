@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // MARK: - Outlet
+    // MARK: - Outlets
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var amountLabel: UILabel!
     @IBOutlet weak var compareButton: UIButton!

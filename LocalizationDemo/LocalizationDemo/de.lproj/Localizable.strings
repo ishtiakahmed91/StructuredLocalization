@@ -1,0 +1,11 @@
+
+// Generic
+
+"ok" = "OKAY";
+
+// DemoScreen
+
+"demo_screen_title" = "Lokalisierung 🎥";
+"demo_screen_label_name" = "Benutzername";
+"demo_screen_label_amount" = "Betrag";
+"demo_screen_action_compare" = "Jetzt vergleichen";
