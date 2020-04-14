@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  LocalizationDemo
+//  StructuredLocalization
 //
 //  Created by Ishtiak Ahmed on 19.03.20.
 //  Copyright © 2020 Ishtiak Ahmed. All rights reserved.
