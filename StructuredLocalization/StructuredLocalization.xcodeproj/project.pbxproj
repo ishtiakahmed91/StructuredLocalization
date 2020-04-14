@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD8B96A424239538004BC59A /* LocalizationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8B96A424239538004BC59A /* StructuredLocalization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StructuredLocalization.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD8B96A724239538004BC59A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD8B96A924239538004BC59A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DD8B96AB24239538004BC59A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,7 +49,7 @@
 		DD8B969B24239538004BC59A = {
 			isa = PBXGroup;
 			children = (
-				DD8B96A624239538004BC59A /* LocalizationDemo */,
+				DD8B96A624239538004BC59A /* StructuredLocalization */,
 				DD8B96A524239538004BC59A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,12 +57,12 @@
 		DD8B96A524239538004BC59A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD8B96A424239538004BC59A /* LocalizationDemo.app */,
+				DD8B96A424239538004BC59A /* StructuredLocalization.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD8B96A624239538004BC59A /* LocalizationDemo */ = {
+		DD8B96A624239538004BC59A /* StructuredLocalization */ = {
 			isa = PBXGroup;
 			children = (
 				DD8D4AB2243FAA3000726D90 /* App */,
@@ -73,7 +73,7 @@
 				DD8B96B524239539004BC59A /* Info.plist */,
 				DD8D4AAB243FA7D400726D90 /* Localizable.strings */,
 			);
-			path = LocalizationDemo;
+			path = StructuredLocalization;
 			sourceTree = "<group>";
 		};
 		DD8D4AB1243FAA0800726D90 /* LocalizedStrings */ = {
@@ -98,9 +98,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD8B96A324239538004BC59A /* LocalizationDemo */ = {
+		DD8B96A324239538004BC59A /* StructuredLocalization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD8B96B824239539004BC59A /* Build configuration list for PBXNativeTarget "LocalizationDemo" */;
+			buildConfigurationList = DD8B96B824239539004BC59A /* Build configuration list for PBXNativeTarget "StructuredLocalization" */;
 			buildPhases = (
 				DD8B96A024239538004BC59A /* Sources */,
 				DD8B96A124239538004BC59A /* Frameworks */,
@@ -110,9 +110,9 @@
 			);
 			dependencies = (
 			);
-			name = LocalizationDemo;
+			name = StructuredLocalization;
 			productName = LocalizationDemo;
-			productReference = DD8B96A424239538004BC59A /* LocalizationDemo.app */;
+			productReference = DD8B96A424239538004BC59A /* StructuredLocalization.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -130,7 +130,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD8B969F24239538004BC59A /* Build configuration list for PBXProject "LocalizationDemo" */;
+			buildConfigurationList = DD8B969F24239538004BC59A /* Build configuration list for PBXProject "StructuredLocalization" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD8B96A324239538004BC59A /* LocalizationDemo */,
+				DD8B96A324239538004BC59A /* StructuredLocalization */,
 			);
 		};
 /* End PBXProject section */
@@ -330,13 +330,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LocalizationDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StructuredLocalization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ishtiak.ahmed.LocalizationDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.structuredlocalization;
+				PRODUCT_NAME = StructuredLocalization;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -347,13 +347,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LocalizationDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/StructuredLocalization/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ishtiak.ahmed.LocalizationDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ia.structuredlocalization;
+				PRODUCT_NAME = StructuredLocalization;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -362,7 +362,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD8B969F24239538004BC59A /* Build configuration list for PBXProject "LocalizationDemo" */ = {
+		DD8B969F24239538004BC59A /* Build configuration list for PBXProject "StructuredLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8B96B624239539004BC59A /* Debug */,
@@ -371,7 +371,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD8B96B824239539004BC59A /* Build configuration list for PBXNativeTarget "LocalizationDemo" */ = {
+		DD8B96B824239539004BC59A /* Build configuration list for PBXNativeTarget "StructuredLocalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD8B96B924239539004BC59A /* Debug */,
